@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Zlata",
+    "phones": [],
+    "emails": [
+      "test@ts.kg"
+    ]
+  },
+  {
+    "name": "Zlata",
+    "phones": [
+      "+39246"
+    ],
+    "emails": [
+      "test@ts.kg"
+    ]
+  }
+]
