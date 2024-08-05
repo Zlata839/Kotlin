@@ -109,8 +109,10 @@ fun readCommand(userInput: String): Command {
         parts[0] == "help" -> Command.Help(
             "Телефон должен начинаться с '+'.\n" +
                     "Email должен быть формата userName@example.ru\n" +
-                    "Пример: add Alex phone +71234567890\n" +
-                    "add Alex email Alex@example.ru"
+                    "Пример phone: add Alex phone +71234567890\n" +
+                    "Пример email: add Alex email Alex@example.ru\n" +
+                    "В команде find укажите введенный email или phone -> find +71234567890\n" +
+                    "В командах show, export указать userName -> show Alex"
         )
 
         parts[0] == "exit" -> Command.Exit
